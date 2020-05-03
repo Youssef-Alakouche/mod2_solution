@@ -2,15 +2,17 @@
 body{
     margin:0px;
 }
-div{
+.div1 , .div2 , .div3{
     width:30%;
     margin:1.5%;
     text-align:center;
-    padding:50px;
+    padding:70px 5px;
     background-color:green;
     display:inline-block;
+    position: relative;
+    border: 2px solid black;
 }
-@media (max-width: 1200px) and (min-width: 426px){
+@media (max-width: 991px) and (min-width: 768px){
     .div1{
         width: 35%;
         margin:5% 4.5% 5% 10%;
@@ -24,9 +26,23 @@ div{
         margin:0% 10%;
     }
 }
-@media (max-width: 425px){
+@media (max-width: 767px){
     div{
         width: 80%;
         margin: 20px 10%;
     }
+}
+h1{
+    text-align: center;
+    text-transform:capitalize;
+}
+.child{
+    position:absolute;
+    top: 3px;
+    right:3px;
+    width:35%;
+    padding:15px 20px ;
+    background-color:red;
+    text-transform: capitalize;
+    border: 2px solid black;
 }
