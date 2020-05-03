@@ -1,0 +1,32 @@
+*{box-sizing:border-box;}
+body{
+    margin:0px;
+}
+div{
+    width:30%;
+    margin:1.5%;
+    text-align:center;
+    padding:50px;
+    background-color:green;
+    display:inline-block;
+}
+@media (max-width: 1200px) and (min-width: 426px){
+    .div1{
+        width: 35%;
+        margin:5% 4.5% 5% 10%;
+    }
+    .div2{
+        width:35%;
+        margin: 5% 10% 5% 4.5%;
+    }
+    .div3{
+        width:80%;
+        margin:0% 10%;
+    }
+}
+@media (max-width: 425px){
+    div{
+        width: 80%;
+        margin: 20px 10%;
+    }
+}
